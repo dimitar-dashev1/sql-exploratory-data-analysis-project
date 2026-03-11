@@ -11,5 +11,4 @@ This project involves a comprehensive analysis of a retail database using a set 
 * Trend & Cumulative Analysis: Developed running totals and moving averages to track sales velocity over time;
 * Automated Reporting: Created reusable VIEW objects for high-level Customer and Product KPI dashboards.
 
-[Download the datasets](sql-exploratory-data-analysis-project/datasets)
-
+[Download the datasets]([sql-exploratory-data-analysis-project/datasets](https://github.com/dimitar-dashev1/sql-exploratory-data-analysis-project/blob/main/datasets/dim_customers.csv))
