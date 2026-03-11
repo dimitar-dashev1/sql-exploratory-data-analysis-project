@@ -13,4 +13,16 @@ Key Features
 
 **🚀 Quick Start Guide**
 
+If you are a beginner, just like me, you can follow these steps in your own SQL environment:
+1. Prerequisites
+* SQL Environment: Ensure you have access to a SQL Server instance (such as SQL Server Management Studio, used for this project);
+* Database: Create a new database to host the sample tables
+```sql
+CREATE DATABASE RetailAnalytics;
+USE RetailAnalytics;
+````
+
+## The Analysis
+
+
 [Download the datasets](./datasets/)
