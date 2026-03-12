@@ -75,6 +75,7 @@ By calculating `DATEDIFF` between the first and last purchase, I filtered out cu
 Using window functions (`LAG`, `OVER`, `PARTITION BY`), I calculated the deviation from average: how much a product's current sales differ from its historical average. Raw sales totals were not enough to tell the whole story. By partitioning the data by `product_name` and ordering by `order_year`, I could pull the previous year’s revenue into the current row. This reveals "momentum." A product might have high sales, but if the `dev_from_avg` is negative, it indicates a declining trend that requires marketing intervention.
 
 **Reporting Views**
+
 I consolidated complex logic into two primary reports:
 
   * `customers_report`: Tracks recency, average order value (AOV), and average monthly spend per customer;
